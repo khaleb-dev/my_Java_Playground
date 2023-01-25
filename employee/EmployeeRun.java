@@ -9,5 +9,3 @@ public class EmployeeRun {
         System.out.println(employee.getTax());
     }
 }
-    
-}

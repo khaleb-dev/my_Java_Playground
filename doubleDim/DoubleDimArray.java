@@ -28,15 +28,15 @@ public class DoubleDimArray {
     }
     
     
-    private double[][] data;
-    private int rows;
-    private int cols;
+    // private double[][] data;
+    // private int rows;
+    // private int cols;
 
-    public DoubleDimArray(double[][] data, int rows, int cols) {
-        this.data = data;
-        this.cols = cols;
-        this.rows = rows;
-    }
+    // public DoubleDimArray(double[][] data, int rows, int cols) {
+    //     this.data = data;
+    //     this.cols = cols;
+    //     this.rows = rows;
+    // }
 
     public double myRowAverage(int row) {
         return row;
