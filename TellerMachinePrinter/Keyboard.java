@@ -6,12 +6,11 @@ public class Keyboard {
     private Scanner input;
 
     public Keyboard(){
-        this.input = new Scanner(System.in);
-        input.useDelimeter("\\n");
+        input = new Scanner(System.in);
     }
 
     public int getInt(){
-        return input.nextIn();
+        return input.nextInt();
     }
 
     public String getLine(){

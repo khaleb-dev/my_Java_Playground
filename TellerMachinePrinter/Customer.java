@@ -19,6 +19,6 @@ public class Customer {
 
     @Override
     public String toString(){
-        return String.format("----- CUSTOMER -----\n Name: %s \n Contact: %s", name, phoneNo);
+        return String.format("\n Name: %s \n Contact: %s", name, phoneNo);
     }
 }
